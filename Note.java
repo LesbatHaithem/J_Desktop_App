@@ -61,7 +61,7 @@ public class Note {
         return modifiedDate;
     }
     
-    public String getFolderId() {
+    public String getFolderId() { // this is an abstract class so it can be extended
         return folderId;
     }
     

@@ -355,7 +355,7 @@ public class NotesApp extends JFrame {
         });
         return card;
     }
-    
+     // checkbox to get it's property we do case1.isSelected()
     public static void main(String[] args) {
         SwingUtilities.invokeLater(NotesApp::new);
     }
